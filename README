@@ -1,0 +1,15 @@
+Uses columnar transposition and Ceaser Shift algorithms to decrypt the following cipher:
+KUHPVIBQKVOSHWHXBPOFUXHRPVLLDDWVOSKWPREDDVVIDWQRBHBGLLBBPKQUNRVOHQEIRLWOKKRDD
+
+
+The description of the encryption method goes as such:
+1. The encryption/decryption algorithm is a combination of columnar transposition and simple shift substitution
+2. The key length is less than or equal to 10 letters long
+3. The original message is in English
+4. The original message contains only letters (i.e., no punctuation marks, numbers, etc).
+
+
+The Python3 script was able to complete testing for keys with size 1-10 in about 2 hours and 10 mins on
+the following spec'd Ubuntu machine:
+
+Intel(R) Core(TM) i3-4130T CPU @ 2.90GHz with 8GB
